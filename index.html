@@ -1,0 +1,5 @@
+
+<!-- واجهة HTML بسيطة للمحادثة -->
+<div id="chat-box" style="height: 300px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;"></div>
+<input id="user-input" type="text" placeholder="اكتب سؤالك هنا..." 
+       onkeydown="if(event.key==='Enter') sendMessage(this.value); this.value='';">
